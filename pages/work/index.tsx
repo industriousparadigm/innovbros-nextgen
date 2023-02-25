@@ -13,24 +13,28 @@ export default function Work() {
         <div className={styles.pageContent}>
           <div className={styles.itemsGrid}>
             {workItems.map((item) => (
-              <div className={styles.gridItem} key={item.title}>
-                <h3>{item.title}</h3>
-                <div style={{ position: "relative", height: "100px" }}>
-                  <Image
-                    src="/mystery-box.png"
-                    alt="Foo"
-                    fill
-                    style={{ objectFit: "contain" }}
-                  />
-                </div>
-                <p>{item.description}</p>
-                <br />
-                <Link href={`/work/${slugify(item.title)}`}>
+              <Link key={item.title} href={`/work/${slugify(item.title)}`}>
+                <div className={styles.gridItem}>
+                  <h3>{item.title}</h3>
+                  <div style={{ position: "relative", height: "200px" }}>
+                    <Image
+                      src={
+                        item.coverImage
+                          ? `/${item.coverImage}`
+                          : "/mystery-box.png"
+                      }
+                      alt="Foo"
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <p>{item.description}</p>
+                  <br />
                   <h5>
                     Read more <span>-&gt;</span>
                   </h5>
-                </Link>
-              </div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
