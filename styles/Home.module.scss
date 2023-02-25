@@ -19,9 +19,13 @@
   height: 74px;
 }
 
+.hamburger {
+  display: none;
+}
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
@@ -86,7 +90,7 @@ footer>.description {
   max-width: 100%;
 }
 
-.card {
+.menuItem {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
@@ -94,17 +98,12 @@ footer>.description {
   transition: background 200ms, border 200ms;
 }
 
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
-}
-
-.card h2 {
+.menuItem h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
 }
 
-.card p {
+.menuItem p {
   margin: 0;
   opacity: 0.6;
   font-size: 0.9rem;
@@ -220,19 +219,19 @@ footer>.description {
 }
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
+@media only screen and (hover: hover) and (pointer: fine) {
+  .menuItem:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
-  .card:hover span {
+    .menuItem:hover span {
     transform: translateX(4px);
   }
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -241,29 +240,33 @@ footer>.description {
     padding: 1rem;
   }
 
-  .header {
-    flex-direction: column;
+    .hamburger {
+      display: block;
+    }
+  
+    .quotesBox {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .itemsGrid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 3rem;
   }
 
   .menu {
     display: none;
     grid-template-columns: 1fr;
-    /* margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
-      */
   }
 
-  .quotesBox {
-    width: 80%;
-    margin: 0 auto;
-  }
 
-  .card {
+    .menuItem {
     padding: 1rem 2.5rem;
+    margin-bottom: 4rem;
   }
 
-  .card h2 {
+    .menuItem h2 {
+      font-size: 2rem;
     margin-bottom: 0.5rem;
   }
 
@@ -320,13 +323,13 @@ footer>.description {
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media only screen and (min-width: 701px) and (max-width: 1120px) {
   .site {
     padding: 3rem;
   }
 
 
-  .card span {
+    .menuItem span {
     display: none;
   }
 }

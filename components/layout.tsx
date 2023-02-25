@@ -1,12 +1,14 @@
 import Head from "next/head"
 import Image from "next/image"
-import { Inter } from "@next/font/google"
 import styles from "@/styles/Home.module.scss"
+import { Cross as Hamburger } from "hamburger-react"
+import { useState } from "react"
 import Link from "next/link"
-
-const inter = Inter({ subsets: ["latin"] })
+import Menu from "./menu"
 
 export default function Layout({ children }: any) {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <>
       <Head>
@@ -26,30 +28,24 @@ export default function Layout({ children }: any) {
               />
             </Link>
           </div>
-          <div className={styles.menu}>
-            <Link className={styles.card} href="/about">
-              <h2 className={inter.className}>
-                About <span className={styles.menuArrow}>-&gt;</span>
-              </h2>
-              {/* <p className={inter.className}>Who we are</p> */}
-            </Link>
 
-            <Link className={styles.card} href="/work">
-              <h2 className={inter.className}>
-                Work <span className={styles.menuArrow}>-&gt;</span>
-              </h2>
-              {/* <p className={inter.className}>Our projects</p> */}
-            </Link>
-
-            <Link className={styles.card} href="/contact">
-              <h2 className={inter.className}>
-                Contact <span className={styles.menuArrow}>-&gt;</span>
-              </h2>
-            </Link>
+          <Menu />
+          <div className={styles.hamburger}>
+            <Hamburger
+              distance="lg"
+              size={48}
+              rounded
+              toggled={menuOpen}
+              toggle={setMenuOpen}
+            />
           </div>
         </header>
 
-        <main className={styles.page}>{children}</main>
+        {menuOpen ? (
+          <Menu mobile />
+        ) : (
+          <main className={styles.page}>{children}</main>
+        )}
 
         <footer className={styles.footer}>
           <p>
