@@ -9,9 +9,10 @@
 }
 
 .centered {
-  margin: "0 auto";
-  width: "100%";
-}
+  margin: 0 auto;
+    width: fit-content;
+  }
+  
 
 .logoContainer {
   position: relative;
@@ -31,6 +32,7 @@
 
 .page {
   margin-bottom: auto;
+  width: 100%;
 }
 
 .footer {
@@ -150,6 +152,7 @@ footer>.description {
 .quoteRefreshButton {
   margin: 0 auto;
   width: 3rem;
+  cursor: pointer;
 }
 
 /* .center::before {

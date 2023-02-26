@@ -14,10 +14,10 @@ const RandomQuote = () => {
   return (
     // <div className="m-12 md:px-12 lg:px-32 text-center">
     <div className={styles.quotesBox}>
-      <p className={styles.description} key={quote._id}>{`"${quote.quote}"`}</p>
+      <p className={styles.description} key={quote._id}>{`${quote.quote}`}</p>
       <br />
       <p className={styles.description}>
-        <em className={styles.centered}>{quote.author}</em>
+        <em className={styles.centered}>- {quote.author}</em>
       </p>
       <br />
       <div className={styles.quoteRefreshButton} onClick={getNewQuote}>
