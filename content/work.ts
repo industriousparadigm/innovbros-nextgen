@@ -4,6 +4,17 @@ import { justCook } from "./blogposts/just-cook"
 export const workItems: WorkItem[] = [
   justCook,
   {
+    title: "Portfolio",
+    author: "The Innovation Brothers",
+    coverImage: "",
+    description: "A collection of some projects we have worked over the years.",
+    content: [
+      {
+        href="/about",
+      },
+    ],
+  },
+  {
     title: "Money money",
     author: "The Innovation Brothers",
     coverImage: "",
