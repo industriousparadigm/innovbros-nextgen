@@ -3,6 +3,7 @@ import { justCook } from "./blogposts/just-cook"
 import { Portfolio } from "./porfolio/portfolio"
 
 export const workItems: WorkItem[] = [
+  justCook,
   Portfolio,
   {
     title: "Money money",
