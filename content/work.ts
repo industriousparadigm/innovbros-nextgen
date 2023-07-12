@@ -8,11 +8,7 @@ export const workItems: WorkItem[] = [
     author: "The Innovation Brothers",
     coverImage: "",
     description: "A collection of some projects we have worked over the years.",
-    content: [
-      {
-        href="/about",
-      },
-    ],
+    href="/about",
   },
   {
     title: "Money money",
