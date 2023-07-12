@@ -7,6 +7,9 @@ export default function Contact() {
     <Layout>
       <div className={styles.basicCenter}>
         <div className={styles.pageContent}>
+          <p className={styles.description}>
+            Feel free to contact us.
+          </p>
           <ContactForm />
         </div>
       </div>
