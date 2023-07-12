@@ -10,8 +10,8 @@ export const workItems: WorkItem[] = [
     description: "A collection of some projects we have worked over the years.",
     content: [
       {
-        type: "Paragraph",
-        text: "[Click here](/about) if you really want to see our Portfolio",
+        type: "HTML",
+        text: "<p><a href=\"/about\">Click here</a> if you really want to see our Portfolio.</p>",
       },
       ],
   },
