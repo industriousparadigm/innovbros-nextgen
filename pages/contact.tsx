@@ -8,7 +8,7 @@ export default function Contact() {
       <div className={styles.basicCenter}>
         <div className={styles.pageContent}>
           <p className={styles.description}>
-            Feel free to contact us.
+            Feel free to reach out
           </p>
           <ContactForm />
         </div>
