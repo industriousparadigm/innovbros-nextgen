@@ -11,7 +11,7 @@ export const workItems: WorkItem[] = [
     content: [
       {
         type: "Paragraph",
-        text: "isto é uma merda",
+        text: "[Click here](/about) if you really want to see our Portfolio",
       },
       ],
   },
