@@ -1,6 +1,6 @@
-import { WorkItem } from "./types"
+import { WorkItem } from "../types"
 
-export const workItems: WorkItem[] = [
+export const PortFolio: WorkItem[] = [
   {
     title: "Monkey monkey",
     author: "The Innovation Brothers",
