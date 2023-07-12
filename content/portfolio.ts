@@ -1,4 +1,4 @@
-import { WorkItem } from "../types"
+import { WorkItem } from "./types"
 
 export const PortFolio: WorkItem[] = [
   {
