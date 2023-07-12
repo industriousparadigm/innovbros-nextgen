@@ -11,7 +11,7 @@ export const workItems: WorkItem[] = [
     content: [
       {
         type: "HTML",
-        text: "href="/about",
+        text: "<a href=\"/about">Click here</a>",
       },
       ],
   },
