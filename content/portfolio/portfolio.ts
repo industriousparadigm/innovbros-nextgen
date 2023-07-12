@@ -18,7 +18,7 @@ export const workItems: WorkItem[] = [
     ],
   },
    {
-    title: "Money money",
+    title: "Monkey monkey",
     author: "The Innovation Brothers",
     coverImage: "",
     description: "A collection of some projects we have worked over the years.",
