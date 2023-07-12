@@ -10,8 +10,8 @@ export const workItems: WorkItem[] = [
     description: "A collection of some projects we have worked over the years.",
     content: [
       {
-        type: "HTML",
-        text: "<a href="/about">Click here</a>",
+        type: "Paragraph",
+        text: "isto é uma merda",
       },
       ],
   },
