@@ -1,7 +1,9 @@
 import { WorkItem } from "./types"
 import { justCook } from "./blogposts/just-cook"
+import { Portfolio } from "./portfolio/portfolio"
 
 export const workItems: WorkItem[] = [
+  Portfolio,
   justCook,
   {
     title: "Money money",
