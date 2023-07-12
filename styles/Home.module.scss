@@ -224,14 +224,12 @@ footer>.description {
       rgba(var(--tile-end-rgb), 1));
   background-clip: content-box;
 }
-
 /* Enable hover only on non-touch devices */
-@media only screen and (hover: hover) and (pointer: fine) {
+/*@media only screen and (hover: hover) and (pointer: fine) {
   .menuItem:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
-  }
-
+  } */
     .menuItem:hover span {
     transform: translateX(4px);
   }
