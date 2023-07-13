@@ -30,9 +30,19 @@ export default function Work() {
                   </div>
                   <p>{item.description}</p>
                   <br />
+                  
+                  {item.pageLink && (
+                    <Link href={item.pageLink}></Link>
+                      <a>
+                
                   <h5>
                     Read more <span>-&gt;</span>
                   </h5>
+
+                      </a>
+                    </Link>
+                  )}
+                  
                 </div>
               </Link>
             ))}
