@@ -11,7 +11,7 @@ export const workItems: WorkItem[] = [
     content: [
       {
         type: "Paragraph",
-        link: "../pages/about" // Specify the URL of the about page,
+        pageLink: "../pages/about" // Specify the URL of the about page,
       },
     ],
   },
