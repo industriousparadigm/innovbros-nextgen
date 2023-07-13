@@ -21,7 +21,7 @@ export default function HomePage() {
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <p>A collection of our work</p>
+              <p>A collection of projects we have worked over the years.</p>
               <br />
               <h5>
                 Read more <span>-&gt;</span>
