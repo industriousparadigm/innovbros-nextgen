@@ -13,7 +13,7 @@ export default function Work() {
         <div className={styles.pageContent}>
           <div className={styles.itemsGrid}>
             {workItems.map((item) => (
-              <Link key={item.title} href={`/work/${slugify(item.title)}`}>
+              <Link key={item.title} href={`/portfolio/${slugify(item.title)}`}>
                 <div className={styles.gridItem}>
                   <h3>{item.title}</h3>
                   <div style={{ position: "relative", height: "200px" }}>
