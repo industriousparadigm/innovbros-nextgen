@@ -10,7 +10,8 @@ export default function HomePage() {
         <div className={styles.pageContent}>
           <div className={styles.itemsGrid}>
             {/* First section */}
-            <div className={styles.gridItem}>
+            <Link href="../about">
+            <a className={styles.gridItem}>
               <h3>Portfolio</h3>
               <div style={{ position: "relative", height: "200px" }}>
                 <Image
@@ -23,12 +24,14 @@ export default function HomePage() {
               <p>A collection of our work</p>
               <br />
               <h5>
-                <Link href="../about">Link 1 -&gt;</Link>
+                Read more <span>-&gt;</span>
               </h5>
-            </div>
+            </a>
+            </Link>
 
             {/* Second section */}
-            <div className={styles.gridItem}>
+            <Link href="../contact">
+            <a className={styles.gridItem}>
               <h3>Blog</h3>
               <div style={{ position: "relative", height: "200px" }}>
                 <Image
@@ -41,9 +44,10 @@ export default function HomePage() {
               <p>Our writtings</p>
               <br />
               <h5>
-                <Link href="../contact">Link 2 -&gt;</Link>
+                Read more <span>-&gt;</span>
               </h5>
-            </div>
+            </a>
+          </Link>
           </div>
         </div>
       </div>
