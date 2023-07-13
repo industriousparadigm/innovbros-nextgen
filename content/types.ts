@@ -11,4 +11,5 @@ export type Block = {
   text?: string
   image?: string // url
   alt?: string
+  link?: string // url
 }
