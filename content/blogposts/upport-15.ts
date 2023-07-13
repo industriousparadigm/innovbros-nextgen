@@ -1,6 +1,6 @@
 import { WorkItem } from "../types"
 
-export const PerDon16: WorkItem = {
+export const Upport15: WorkItem = {
   title: "Upport",
   author: "The Innovation Brothers",
   coverImage: "upport-15-cover.jpg",
