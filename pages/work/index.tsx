@@ -41,7 +41,7 @@ export default function HomePage() {
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <p>Our writtings</p>
+              <p>Our writings about innovation, design, creativity and technology.</p>
               <br />
               <h5>
                 Read more <span>-&gt;</span>
