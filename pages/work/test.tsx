@@ -30,7 +30,7 @@ export default function HomePage() {
             </Link>
 
             {/* Second section */}
-            <Link href="../success">
+            <Link href="../blog">
             <a className={styles.gridItem}>
               <h3>Blog</h3>
               <div style={{ position: "relative", height: "200px" }}>
