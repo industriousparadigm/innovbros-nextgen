@@ -13,7 +13,11 @@ export const PerDon16: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The challenge: Drummers and percussionists are always looking to extend their sound library with different percussive instruments, from cymbals to wooden blocks. To boost these instruments, different techniques and gear are used.",
+      text: "The challenge:",
+    },
+    {
+      type: "Paragraph",
+      text: "Drummers and percussionists are always looking to extend their sound library with different percussive instruments, from cymbals to wooden blocks. To boost these instruments, different techniques and gear are used.",
     },
     {
       type: "Paragraph",
@@ -21,12 +25,16 @@ export const PerDon16: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The idea: Back in 2016, we developed Per-Don that transforms a standard drum pedal into a remote drum pedal device. This allows a drummer to remotely play percussion instruments with her foot on most drum kits.",
+      text: "The idea:",
+    },
+    {
+      type: "Paragraph",
+      text: "Back in 2016, we developed Per-Don that transforms a standard drum pedal into a remote drum pedal device. This allows a drummer to remotely play percussion instruments with her foot on most drum kits.",
     },
     {
       type: "Image",
       image: "per-don-16.png",
-      alt: "Dutch Reach door handle",
+      alt: "Per-Don Percussive Instrument",
     },
     {
       type: "Paragraph",
@@ -34,11 +42,15 @@ export const PerDon16: WorkItem = {
     },
     {
       type: "Paragraph",
+      text: "Multiple options:",
+    },
+    {
+      type: "Paragraph",
       text: "On top of everything, Per-Don fits most drum sets, drum instruments and drum hardware, while not changing the drumming experience and feel, and easy to assemble and versatile.",
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Other products for remotely playing percussive instruments already exist. The most eminent is the hi-hat stand, popularized in the 1930s, for co-operating a pair of cymbals both with the foot and drumsticks. Some of which are remote and utilize a cable - remote cable hi hat.",
+      text: "Other products for remotely playing percussive instruments already exist. The most eminent is the hi-hat stand, popularized in the 1930s, for co-operating a pair of cymbals both with the foot and drumsticks. Some of which are remote and utilize a cable - remote cable hi hat.",
     },
     {
       type: "Paragraph",

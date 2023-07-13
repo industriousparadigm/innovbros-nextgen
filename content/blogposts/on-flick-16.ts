@@ -9,16 +9,24 @@ export const OnFlick16: WorkItem = {
   content: [
     {
       type: "Paragraph",
-      text: "The challenge: Sometimes people stumble for a while until they find the switch to turn them on, specially in the dark.",
+      text: "The challenge:",
     },
     {
       type: "Paragraph",
-      text: "The idea: Imagine a lamp which you just need to tap to turn on or off. That's On-Flick, a switchless interactive lamp that is intuitive, simple, easy to use and fun to light up.",
+      text: "Sometimes people stumble for a while until they find the switch to turn them on, specially in the dark.",
+    },
+    {
+      type: "Paragraph",
+      text: "The idea:",
+    },
+    {
+      type: "Paragraph",
+      text: "Imagine a lamp which you just need to tap to turn on or off. That's On-Flick, a switchless interactive lamp that is intuitive, simple, easy to use and fun to light up.",
     },
     {
       type: "Image",
       image: "on-flick-16.png",
-      alt: "Dutch Reach door handle",
+      alt: "On-FLick",
     },
     {
       type: "Paragraph",
@@ -26,7 +34,11 @@ export const OnFlick16: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Lamps abound all around us, with different shapes and aesthetics, and some seek for different user experiences by means of sensors and designs.",
+      text: "Multiple options:",
+    },
+    {
+      type: "Paragraph",
+      text: "Lamps abound all around us, with different shapes and aesthetics, and some seek for different user experiences by means of sensors and designs.",
     },
   ],
 }

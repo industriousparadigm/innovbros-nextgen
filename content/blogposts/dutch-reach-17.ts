@@ -13,7 +13,11 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The challenge: Dooring are accidents that happen out of the surprise of an opening car door. It is a serious issue worldwide that affects other car drivers, motorcyclists, cyclists and pedestrians with potential severe results. While dooring accounts for around 6% of all traffic accidents, it is the highest injury risk for cycling commuters, 10%.",
+      text: "The challenge:",
+    },  
+    {
+      type: "Paragraph",
+      text: "Dooring are accidents that happen out of the surprise of an opening car door. It is a serious issue worldwide that affects other car drivers, motorcyclists, cyclists and pedestrians with potential severe results. While dooring accounts for around 6% of all traffic accidents, it is the highest injury risk for cycling commuters, 10%.",
     },
     {
       type: "Paragraph",
@@ -26,7 +30,11 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The idea: When we looked at this challenge in 2017, we realised dooring can be easily tackled by redesigning car doors in such a way that the Dutch Reach is the comfortable and automatic way for a passenger to open a car door.",
+      text: "The idea:",
+    },
+    {
+      type: "Paragraph",
+      text: "When we looked at this challenge in 2017, we realised dooring can be easily tackled by redesigning car doors in such a way that the Dutch Reach is the comfortable and automatic way for a passenger to open a car door.",
     },
     {
       type: "Paragraph",
@@ -38,7 +46,11 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Obviously, a variety of initiatives and other inventions to tackle dooring exist. These include passengers' awareness campaigns and teaching programs; regulations and fines; signalling devices and detection sensors; and urban traffic design and infrastructure.",
+      text: "Multiple options:",
+    },  
+    {
+      type: "Paragraph",
+      text: "Obviously, a variety of initiatives and other inventions to tackle dooring exist. These include passengers' awareness campaigns and teaching programs; regulations and fines; signalling devices and detection sensors; and urban traffic design and infrastructure.",
     },
   ],
 }

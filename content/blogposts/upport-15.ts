@@ -9,7 +9,11 @@ export const Upport15: WorkItem = {
   content: [
     {
       type: "Paragraph",
-      text: "The challenge: The increasing, or even ubiquitous, connectivity and portability of technology have been encouraging and supporting us to work and collaborate anywhere. However, most environments don't have tables, so our individual health and well-being suffers from the discomfort of bad posture.",
+      text: "The challenge:",
+    },
+    {
+      type: "Paragraph",
+      text: "The increasing, or even ubiquitous, connectivity and portability of technology have been encouraging and supporting us to work and collaborate anywhere. However, most environments don't have tables, so our individual health and well-being suffers from the discomfort of bad posture.",
     },
     {
       type: "Paragraph",
@@ -17,12 +21,16 @@ export const Upport15: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The idea: So, adjustable portable furniture could be all it takes to foster greater health and increase individual's freedom.",
+      text: "The idea:",
+    },
+    {
+      type: "Paragraph",
+      text: "So, adjustable portable furniture could be all it takes to foster greater health and increase individual's freedom.",
     },
     {
       type: "Image",
       image: "upport-15-01.jpg",
-      alt: "Dutch Reach door handle",
+      alt: "Upport portable desk 01",
     },
     {
       type: "Paragraph",
@@ -35,11 +43,15 @@ export const Upport15: WorkItem = {
     {
       type: "Image",
       image: "upport-15-02.jpg",
-      alt: "Dutch Reach door handle",
+      alt: "Upport portable desk 02",
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Although there are several different designs of foldable tables, none is completely compact and light to be conveniently and easily carried, stable and strong to answer the user requirements. The relevant competing solutions include, portable sofa tables, folding laptop desk, dining sofa table, field easel, and standing desk.",
+      text: "Multiple options:",
+    },
+    {
+      type: "Paragraph",
+      text: "Although there are several different designs of foldable tables, none is completely compact and light to be conveniently and easily carried, stable and strong to answer the user requirements. The relevant competing solutions include, portable sofa tables, folding laptop desk, dining sofa table, field easel, and standing desk.",
     },
   ],
 }

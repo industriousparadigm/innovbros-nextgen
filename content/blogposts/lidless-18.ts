@@ -9,12 +9,16 @@ export const Lidless18: WorkItem = {
   content: [
     {
       type: "Paragraph",
-      text: "The challenge: Food storage containers are ever-present everyday household items used for storing and transporting food items.",
+      text: "The challenge:",
+    },
+    {
+      type: "Paragraph",
+      text: "Food storage containers are ever-present everyday household items used for storing and transporting food items.",
     },
     {
       type: "Image",
       image: "lidless-18-challenge.png",
-      alt: "Dutch Reach door handle",
+      alt: "Lidless food container",
     },
     {
       type: "Paragraph",
@@ -23,20 +27,28 @@ export const Lidless18: WorkItem = {
     {
       type: "Image",
       image: "lidless-18.png",
-      alt: "Dutch Reach door handle",
+      alt: "Lidless food container",
     },
     {
       type: "Paragraph",
-      text: "The idea: With this in mind, in 2018 we developed a food container that closes itself up by means of an inbuilt flexible top cover, thus allowing people to always be able to store food for later use. The Lidless Anymore container has a flexible lid with a tight seal system attached to the body, and is easy to use and stackable for easy storage.",
+      text: "The idea:",
+    },
+    {
+      type: "Paragraph",
+      text: "With this in mind, in 2018 we developed a food container that closes itself up by means of an inbuilt flexible top cover, thus allowing people to always be able to store food for later use. The Lidless Anymore container has a flexible lid with a tight seal system attached to the body, and is easy to use and stackable for easy storage.",
     },
     {
       type: "Image",
       image: "lidless-18-benefits.png",
-      alt: "Dutch Reach door handle",
+      alt: "Lidless food container",
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Since the lid issue is the second biggest problem with food storage containers, solutions have been developed, from containers with attached lids to a lid organiser system, and a lid design that stacks with other lids and the bottom of any container.",
+      text: "Multiple options:",
+    },
+    {
+      type: "Paragraph",
+      text: "Since the lid issue is the second biggest problem with food storage containers, solutions have been developed, from containers with attached lids to a lid organiser system, and a lid design that stacks with other lids and the bottom of any container.",
     },
   ],
 }
