@@ -10,7 +10,7 @@ export const workItems: WorkItem[] = [
     description: "A collection of some projects we have worked over the years.",
     content: [
       {
-        link: "/about" // Specify the URL of the about page,
+        link: "../pages/about" // Specify the URL of the about page,
       },
     ],
   },
