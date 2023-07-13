@@ -15,8 +15,8 @@ export default function HomePage() {
               <h3>Portfolio</h3>
               <div style={{ position: "relative", height: "200px" }}>
                 <Image
-                  src="/mystery-box.png"
-                  alt="Image 1"
+                  src="/idea-lamp-01.png"
+                  alt="Idea Lamp"
                   fill
                   style={{ objectFit: "cover" }}
                 />
@@ -35,8 +35,8 @@ export default function HomePage() {
               <h3>Blog</h3>
               <div style={{ position: "relative", height: "200px" }}>
                 <Image
-                  src="/mystery-box.png"
-                  alt="Image 2"
+                  src="/writing-01.png"
+                  alt="Writing"
                   fill
                   style={{ objectFit: "cover" }}
                 />
