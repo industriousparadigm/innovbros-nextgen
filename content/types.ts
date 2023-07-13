@@ -11,8 +11,5 @@ export type Block = {
   text?: string
   image?: string // url
   alt?: string
+  link?: string // url
 }
-
-  export type BlockWithLink = Block & {
-    link: string // url
-  }
