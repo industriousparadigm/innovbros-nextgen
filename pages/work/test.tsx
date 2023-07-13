@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className={styles.pageContent}>
           <div className={styles.itemsGrid}>
             {/* First section */}
-            <Link href="../about">
+            <Link href="../portfolio">
             <a className={styles.gridItem}>
               <h3>Portfolio</h3>
               <div style={{ position: "relative", height: "200px" }}>
@@ -30,7 +30,7 @@ export default function HomePage() {
             </Link>
 
             {/* Second section */}
-            <Link href="../contact">
+            <Link href="../success">
             <a className={styles.gridItem}>
               <h3>Blog</h3>
               <div style={{ position: "relative", height: "200px" }}>
