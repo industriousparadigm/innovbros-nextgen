@@ -1,6 +1,6 @@
 import styles from "@/styles/Home.module.scss"
 import Layout from "@/components/layout"
-import { workItems } from "@/content/work"
+import { workItems } from "@/content/blog"
 import Image from "next/image"
 import { Inter } from "@next/font/google"
 import Link from "next/link"
