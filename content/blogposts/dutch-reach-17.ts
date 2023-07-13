@@ -26,7 +26,7 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The idea: When we looked at this challenge in 2017, we realised "dooring" can be easily tackled by redesigning car doors in such a way that the Dutch Reach is the comfortable and automatic way for a passenger to open a car door.",
+      text: "The idea: When we looked at this challenge in 2017, we realised dooring can be easily tackled by redesigning car doors in such a way that the Dutch Reach is the comfortable and automatic way for a passenger to open a car door.",
     },
     {
       type: "Paragraph",
@@ -38,7 +38,7 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "Multiple options: Obviously, a variety of initiatives and other inventions to tackle "dooring" exist. These include passengers' awareness campaigns and teaching programs; regulations and fines; signalling devices and detection sensors; and urban traffic design and infrastructure.",
+      text: "Multiple options: Obviously, a variety of initiatives and other inventions to tackle dooring exist. These include passengers' awareness campaigns and teaching programs; regulations and fines; signalling devices and detection sensors; and urban traffic design and infrastructure.",
     },
   ],
 }
