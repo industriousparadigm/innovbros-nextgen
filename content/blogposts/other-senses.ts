@@ -1,7 +1,7 @@
 import { WorkItem } from "../types"
 
 export const otherSenses: WorkItem = {
-  title: "Design for 'other senses'",
+  title: "Design for 'other senses'               ",
   author: "The Innovation Brothers",
   coverImage: "other-senses.png",
   description:
