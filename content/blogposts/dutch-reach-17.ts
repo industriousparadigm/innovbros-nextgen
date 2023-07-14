@@ -59,8 +59,8 @@ export const DutchReach17: WorkItem = {
     },
     {
       type: "Link",
-      text: "Learn more about our research."
-      url: "../blog/affordances-can-be-deadly-how-design-affects-dooring"
+      text: "Learn more about our research.",
+      url: "../blog/affordances-can-be-deadly-how-design-affects-dooring",
     },
     {
       type: "Link",
