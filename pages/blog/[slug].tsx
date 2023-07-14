@@ -1,7 +1,7 @@
 import Layout from "@/components/layout"
 import { useRouter } from "next/router"
 import styles from "@/styles/Home.module.scss"
-import { workItems } from "@/content/work"
+import { workItems } from "@/content/blog"
 import { slugify } from "@/utils/slugify"
 import Image from "next/image"
 import Link from "next/link"
