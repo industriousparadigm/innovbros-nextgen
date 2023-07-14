@@ -7,8 +7,9 @@ export type WorkItem = {
 }
 
 export type Block = {
-  type: "Paragraph" | "Image"
+  type: "Paragraph" | "Image" | "Link"
   text?: string
   image?: string // url
   alt?: string
+  url?: string // url
 }
