@@ -48,8 +48,9 @@ export const workItems: WorkItem[] = [
         text: "Gonna do some dirty. ipsum and the whales and dolphins. IPSUM ipsum and the whales and dolphins. ",
       },
       {
-        type: "Paragraph",
+        type: "Link",
         text: "Save the pandas!",
+        url: "../pages/about"
       },
     ],
   },
