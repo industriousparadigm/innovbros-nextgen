@@ -1,6 +1,6 @@
 import { WorkItem } from "../types"
 
-export const writingAI-5Ways: WorkItem = {
+export const writingAI5Ways: WorkItem = {
   title: "Writing with AI",
   author: "The Innovation Brothers",
   coverImage: "writing-AI-5-ways.png",
