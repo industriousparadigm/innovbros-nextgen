@@ -55,7 +55,7 @@ export const Upport15: WorkItem = {
     },
     {
       type: "Link",
-      text: "Click here for a case study of our process.",
+      text: "Read about our process...",
       url: "../blog/designing-an-ideal-portable-desk",
     },
     {
