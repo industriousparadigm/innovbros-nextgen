@@ -13,18 +13,15 @@ export const retailtainment: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "One of these evenings I went to a friend's house for dinner. As we were starting cooking, my friend pulled her phone and ordered the missing red wine to accompany the food. The chat and cooking made it seem instant and twenty minutes have had only went by when the delivery man with our bottles rang at the door.
-",
+      text: "One of these evenings I went to a friend's house for dinner. As we were starting cooking, my friend pulled her phone and ordered the missing red wine to accompany the food. The chat and cooking made it seem instant and twenty minutes have had only went by when the delivery man with our bottles rang at the door.",
     },
     {
       type: "Paragraph",
-      text: "This impromptu wine ordering is enabled by a variety of technological and business developments. Not only were the computing devices and the internet fundamental for online shopping, but also the rampant growth of express package deliverers and the evolution of payment methods allowed this transformative way of consumption.
-",
+      text: "This impromptu wine ordering is enabled by a variety of technological and business developments. Not only were the computing devices and the internet fundamental for online shopping, but also the rampant growth of express package deliverers and the evolution of payment methods allowed this transformative way of consumption.",
     },
     {
       type: "Paragraph",
-      text: "Since 2000 that the shift from physical to digital shopping has been accelerating. By that year only 22 percent of Americans with internet access have had made an online purchase. In 2017 this accounts for 96 percent, with 51 percent of the American population already preferring to shop online. Also, additional statistics show that e-commerce will continue to grow since the younger the generation, the highest the percentage that favors online shopping: 67 percent of Millennials, 56 percent of Gen Xers, 41 percent of Baby Boomers and 28 percent of Seniors opt for e-commerce.
-",
+      text: "Since 2000 that the shift from physical to digital shopping has been accelerating. By that year only 22 percent of Americans with internet access have had made an online purchase. In 2017 this accounts for 96 percent, with 51 percent of the American population already preferring to shop online. Also, additional statistics show that e-commerce will continue to grow since the younger the generation, the highest the percentage that favors online shopping: 67 percent of Millennials, 56 percent of Gen Xers, 41 percent of Baby Boomers and 28 percent of Seniors opt for e-commerce.",
     },
     {
       type: "Paragraph",
