@@ -46,7 +46,7 @@ const WorkItem = () => {
                     {block.url ? (
                       <p className={styles.description}>
                         <Link href={block.url}>
-                          <a className={styles.description}>{block.text}</a>
+                          <a className={styles.descriptionLink}>{block.text}</a>
                         </Link>
                         </p>
                     ) : (
