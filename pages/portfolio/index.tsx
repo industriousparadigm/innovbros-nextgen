@@ -15,7 +15,7 @@ export default function Work() {
             {workItems.map((item) => (
               <Link key={item.title} href={`/portfolio/${slugify(item.title)}`}>
                 <div className={styles.gridItem}>
-                  <h3>{item.title}</h3>
+                  <h3 style={{ height: "50px" }}>{item.title}</h3>
                   <div style={{ position: "relative", height: "200px" }}>
                     <Image
                       src={
