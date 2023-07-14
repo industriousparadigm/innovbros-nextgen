@@ -55,5 +55,10 @@ export const goldenMetrics: WorkItem = {
       type: "Paragraph",
       text: "What is your innovation’s ideality?",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

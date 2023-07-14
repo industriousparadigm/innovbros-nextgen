@@ -1,7 +1,7 @@
 import { WorkItem } from "../types"
 
 export const otherSenses: WorkItem = {
-  title: "Design for 'other senses'               ",
+  title: "Design for 'other senses'",
   author: "The Innovation Brothers",
   coverImage: "other-senses.png",
   description:
@@ -46,6 +46,11 @@ export const otherSenses: WorkItem = {
     {
       type: "Paragraph",
       text: "In fact, designers must know and understand our sensorial perception of the world, not only the Aristotelian five senses, but also the other senses we have - or don't have but other animals do, to more creatively design better solutions and more exciting products, services, systems, communications, and experiences. Surely the design of a service involves thinking about the different sensorial touchpoints, the design of a device should make use of our bodily senses and physical limitations, and the design of a marketing campaign must consider more than the visual cues.",
+    },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
     },
   ],
 }

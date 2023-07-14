@@ -75,5 +75,10 @@ export const dooringLife: WorkItem = {
       type: "Paragraph",
       text: "Obviously, this article only highlights the issue and introduces some solutions. Dooring needs to be minimized and has been addressed throughout the world, with a variety of initiatives and inventions. Essentially, it will be up to the industry, regulators, and government officials, but also up to us to push for changes. Not only by encouraging mobility stakeholders to implement better solutions, but also by being more aware and conscious of others - simply by looking before opening the door.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

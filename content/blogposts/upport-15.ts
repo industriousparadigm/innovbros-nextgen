@@ -34,7 +34,7 @@ export const Upport15: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "That's why we developed and patented Upport in 2015 (WO2017126985A1), a portable desk that allows people to be free to comfortably work anywhere, as long as there's a place to sit.",
+      text: "That's why we developed and patented Upport in 2015, a portable desk that allows people to be free to comfortably work anywhere, as long as there's a place to sit.",
     },
     {
       type: "Paragraph",
@@ -52,6 +52,16 @@ export const Upport15: WorkItem = {
     {
       type: "Paragraph",
       text: "Although there are several different designs of foldable tables, none is completely compact and light to be conveniently and easily carried, stable and strong to answer the user requirements. The relevant competing solutions include, portable sofa tables, folding laptop desk, dining sofa table, field easel, and standing desk.",
+    },
+    {
+      type: "Link",
+      text: "Click here for a case study of our process."
+      url: "../blog/designing-an-ideal-portable-desk"
+    },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
     },
   ],
 }

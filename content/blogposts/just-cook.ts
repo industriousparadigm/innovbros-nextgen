@@ -51,5 +51,10 @@ export const justCook: WorkItem = {
       type: "Paragraph",
       text: "Cooking is a pleasurable and joyful activity that results in a product made out of a combination of ingredients that are transformed by, like Victor Papanek's definition of design, ‘the conscious and intuitive effort to impose meaningful order’. The similarity of culinary arts with design and the timeframe of cooking makes it an ideal discipline to teach people to understand and think like a designer.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

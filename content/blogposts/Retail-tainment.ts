@@ -75,5 +75,10 @@ export const retailtainment: WorkItem = {
       type: "Paragraph",
       text: "Are you planning to implement retailtainment in your business? Do you plan to start a new venture following this trend? Share your thoughts with us in the comment section.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

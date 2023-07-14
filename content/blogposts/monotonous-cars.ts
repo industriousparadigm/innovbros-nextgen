@@ -75,5 +75,10 @@ export const monotonousCars: WorkItem = {
       type: "Paragraph",
       text: "In the end, self-driving vehicles' positive tests on the open road, the continuous technological developments and progressive market penetration, sums up as an exciting future. And although many industries will be affected, the driverless car will, like the automotive car in the beginning of the 20th century, be a platform for new business opportunities, innovation, and social growth. Still, the design of the experience is essential, after all, traveling is a major element of people's lives.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

@@ -27,5 +27,10 @@ export const designMaps: WorkItem = {
       type: "Paragraph",
       text: "For more successful innovations, teams need to let go of opinions and ground action on the real world by complementing the macro-scale statistics with micro-scale observations.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

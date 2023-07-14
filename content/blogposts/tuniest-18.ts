@@ -40,5 +40,10 @@ export const Tuniest18: WorkItem = {
       type: "Paragraph",
       text: "Canned food are also wrapped in packing paper, or graphics are directly printed in the aluminum can.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
+    },
   ],
 }

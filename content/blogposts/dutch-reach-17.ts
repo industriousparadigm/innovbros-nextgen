@@ -3,7 +3,7 @@ import { WorkItem } from "../types"
 export const DutchReach17: WorkItem = {
   title: "Dutch Reach",
   author: "The Innovation Brothers",
-  coverImage: "dooring-life-bike.jpg",
+  coverImage: "bike-car-door.jpg",
   description:
     "Dutch Reach (2017) a car door handle to prevent dooring accidents.",
   content: [
@@ -56,6 +56,16 @@ export const DutchReach17: WorkItem = {
     {
       type: "Paragraph",
       text: "Obviously, a variety of initiatives and other inventions to tackle dooring exist. These include passengers' awareness campaigns and teaching programs; regulations and fines; signalling devices and detection sensors; and urban traffic design and infrastructure.",
+    },
+    {
+      type: "Link",
+      text: "Learn more about our research."
+      url: "../blog/affordances-can-be-deadly-how-design-affects-dooring"
+    },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
     },
   ],
 }

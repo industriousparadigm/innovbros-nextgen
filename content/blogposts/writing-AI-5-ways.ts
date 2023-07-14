@@ -43,5 +43,10 @@ export const writingAI5Ways: WorkItem = {
       type: "Paragraph",
       text: "In conclusion, these are powerful tools that can revolutionize the way we interact with AI. Their natural language processing capabilities make them easy to use, and their many applications, such as researching human knowledge, individual learning, satisfying curiosity, recalling names, and summarizing articles, demonstrate their value and potential. Despite some limitations and inaccuracies, current AI platforms already offer a glimpse into the future of AI, where it is an essential part of our daily lives, helping us be more productive and efficient in our work and personal lives. This highlights the potential of AI to augment human capabilities and not replace them. The core idea here is that an AI user will take our place, not artificial intelligence itself. With the growing development of AI technology, it's clear that the possibilities are endless and we can expect more exciting features and advancements in the future.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

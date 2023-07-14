@@ -40,5 +40,10 @@ export const OnFlick16: WorkItem = {
       type: "Paragraph",
       text: "Lamps abound all around us, with different shapes and aesthetics, and some seek for different user experiences by means of sensors and designs.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
+    },
   ],
 }

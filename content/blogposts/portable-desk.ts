@@ -8,6 +8,11 @@ export const portableDesk: WorkItem = {
     "a product development TRIZ case study",
   content: [
     {
+      type: "Link",
+      text: "Check out the Upport portable desk"
+      url: "../portfolio/upport"
+    },
+    {
       type: "Paragraph",
       text: "People's posture affects their comfort and well-being, leading to musculo-skeletal problems, poor posture and injuries. Adjustable portable furniture could be all it takes to promote better health and increase individual's freedom and autonomy which, evidence suggests, could bring about an increase in overall quality of life, productivity, while reducing the dangers of our largely sedentary lifestyle.",
     },
@@ -118,6 +123,11 @@ export const portableDesk: WorkItem = {
     {
       type: "Paragraph",
       text: "- Evaluate all solutions using the 'Ideality Audit'",
+    },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
     },
   ],
 }

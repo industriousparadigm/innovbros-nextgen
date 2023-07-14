@@ -35,5 +35,10 @@ export const creativeChef: WorkItem = {
       type: "Paragraph",
       text: "By applying analogy thinking to cooking you can create amazing flavourful and creative dishes. Whether you’re an expert chef or just starting out, you can use this technique to experiment with different ingredients and surprise your guests with new and exciting recipes.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

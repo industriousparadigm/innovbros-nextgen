@@ -47,5 +47,10 @@ export const potatoesTelltale: WorkItem = {
       type: "Paragraph",
       text: "The French campaign that showcased potatoes was a far-reaching episode for both the crop and humanity. Equally relevant is the innovation wisdom and framework that can be identified and replicated for any future disruptive innovations.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

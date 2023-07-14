@@ -50,5 +50,10 @@ export const Lidless18: WorkItem = {
       type: "Paragraph",
       text: "Since the lid issue is the second biggest problem with food storage containers, solutions have been developed, from containers with attached lids to a lid organiser system, and a lid design that stacks with other lids and the bottom of any container.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
+    },
   ],
 }

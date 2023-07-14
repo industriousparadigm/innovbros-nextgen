@@ -39,5 +39,10 @@ export const marsLatency: WorkItem = {
       type: "Paragraph",
       text: "Looking forward to the scientific and technological progress that will be added to our collection of knowledge.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

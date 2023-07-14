@@ -71,5 +71,10 @@ export const handlingThoughts: WorkItem = {
       type: "Paragraph",
       text: "In conclusion, the human capability for pattern recognition, result of the cognitive development, is a capacity that can be systematically used to search for and identify different solutions. It is by reorganizing and complementing different ideas that innovation sprouts.",
     },
+    {
+      type: "Link",
+      text: "Back to blog"
+      url: "../blog"
+    },
   ],
 }

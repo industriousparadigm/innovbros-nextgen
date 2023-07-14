@@ -60,5 +60,10 @@ export const PerDon16: WorkItem = {
       type: "Paragraph",
       text: "In 2018, Dixon released a product that tackles the same use cases and needs as Per-Don by making a remote cajon pedal that is able to be put to use in a variety of other percussive instruments.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio"
+      url: "../portfolio"
+    },
   ],
 }
