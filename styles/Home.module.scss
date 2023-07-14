@@ -71,17 +71,6 @@ footer>.description {
   gap: 0.5rem;
 }
 
-.descriptionLink a {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-  font-family: var(--font-mono);
-  align-items: left;
-}
-
 .description p {
   position: relative;
   margin: 0;
