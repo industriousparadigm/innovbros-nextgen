@@ -3,7 +3,7 @@ import { WorkItem } from "../types"
 export const designMaps: WorkItem = {
   title: "no facts exist inside the building, only opinions.",
   author: "The Innovation Brothers",
-  coverImage: "design-maps.jpeg",
+  coverImage: "design-maps.jpg",
   description:
     "The map is not the territory",
   content: [
