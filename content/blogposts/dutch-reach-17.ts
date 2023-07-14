@@ -3,7 +3,7 @@ import { WorkItem } from "../types"
 export const DutchReach17: WorkItem = {
   title: "Dutch Reach",
   author: "The Innovation Brothers",
-  coverImage: "bike-car-door.jpg",
+  coverImage: "dooring-life-bike.jpg",
   description:
     "Dutch Reach (2017) a car door handle to prevent dooring accidents.",
   content: [
