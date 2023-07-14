@@ -9,8 +9,7 @@ export const marsLatency: WorkItem = {
   content: [
     {
       type: "Paragraph",
-      text: "We are trying to become a multi-planetary species by going to Mars and settling there in the next 100 years. Most focus has been on the propulsion and transportation technology front, with developments and innovations putting us closer to this goal.
-",
+      text: "We are trying to become a multi-planetary species by going to Mars and settling there in the next 100 years. Most focus has been on the propulsion and transportation technology front, with developments and innovations putting us closer to this goal.",
     },
     {
       type: "Paragraph",
@@ -18,13 +17,11 @@ export const marsLatency: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "A common hurdle of all these cases has been comunications, and with Mars it will be again. Not because we won't be able to get news from our fellow humans on the red planet surface, but because even light takes, in the best situation, four minutes to travel from the red to the blue planet. This will take us back more than a hundred years when posting a letter and waiting for a reply was the best comunication medium.
-",
+      text: "A common hurdle of all these cases has been comunications, and with Mars it will be again. Not because we won't be able to get news from our fellow humans on the red planet surface, but because even light takes, in the best situation, four minutes to travel from the red to the blue planet. This will take us back more than a hundred years when posting a letter and waiting for a reply was the best comunication medium.",
     },
     {
       type: "Paragraph",
-      text: "This email like communication system will seem inadequate for our high-tech world of instant video conversations anywhere and anytime.
-",
+      text: "This email like communication system will seem inadequate for our high-tech world of instant video conversations anywhere and anytime.",
     },
     {
       type: "Paragraph",
@@ -32,8 +29,7 @@ export const marsLatency: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "The entanglement is a physical phenomenon where a group of particles cannot be described independently of each other, even when the particles are far apart.
-",
+      text: "The entanglement is a physical phenomenon where a group of particles cannot be described independently of each other, even when the particles are far apart.",
     },
     {
       type: "Paragraph",
