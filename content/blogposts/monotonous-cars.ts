@@ -13,7 +13,7 @@ export const monotonousCars: WorkItem = {
     },
     {
       type: "Paragraph",
-      text: "Undeniably, a fantastical sci-fi future is right around the corner, with autonomous driving becoming mainstream in the second half of the 2020s and human-driving being prohibited soon after. However, many are portraying an appalling "one-piece silver jumpsuit, V-stripe on chest and boots" future. A uniformed transportation system in which swarms of white pod-like looking vehicles transport people from A to B.",
+      text: "Undeniably, a fantastical sci-fi future is right around the corner, with autonomous driving becoming mainstream in the second half of the 2020s and human-driving being prohibited soon after. However, many are portraying an appalling 'one-piece silver jumpsuit, V-stripe on chest and boots' future. A uniformed transportation system in which swarms of white pod-like looking vehicles transport people from A to B.",
     },
     {
       type: "Paragraph",
