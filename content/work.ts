@@ -50,7 +50,7 @@ export const workItems: WorkItem[] = [
       {
         type: "Link",
         text: "Save the pandas!",
-        url: "../pages/about"
+        url: "../about"
       },
     ],
   },
