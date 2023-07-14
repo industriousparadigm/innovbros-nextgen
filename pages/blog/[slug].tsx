@@ -1,9 +1,10 @@
 import Layout from "@/components/layout"
 import { useRouter } from "next/router"
 import styles from "@/styles/Home.module.scss"
-import { workItems } from "@/content/blog"
+import { workItems } from "@/content/work"
 import { slugify } from "@/utils/slugify"
 import Image from "next/image"
+import Link from "next/link"
 
 const WorkItem = () => {
   const router = useRouter()
@@ -42,10 +43,19 @@ const WorkItem = () => {
               default: {
                 return (
                   <div key={i}>
+                    {block.url ? (
+                      <p className={styles.description}>
+                        <Link href={block.url}>
+                          <a className={styles.description}>{block.text}</a>
+                        </Link>
+                        </p>
+                    ) : (
                     <p className={styles.description}>{block.text}</p>
+                    )}
                     <br />
                   </div>
                 )
+                return null
               }
             }
           })}
