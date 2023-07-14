@@ -73,8 +73,8 @@ export const handlingThoughts: WorkItem = {
     },
     {
       type: "Link",
-      text: "Back to blog"
-      url: "../blog"
+      text: "Back to blog",
+      url: "../blog",
     },
   ],
 }

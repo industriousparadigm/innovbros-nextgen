@@ -9,8 +9,8 @@ export const portableDesk: WorkItem = {
   content: [
     {
       type: "Link",
-      text: "Check out the Upport portable desk"
-      url: "../portfolio/upport"
+      text: "Check out the Upport portable desk",
+      url: "../portfolio/upport",
     },
     {
       type: "Paragraph",
@@ -126,8 +126,8 @@ export const portableDesk: WorkItem = {
     },
     {
       type: "Link",
-      text: "Back to blog"
-      url: "../blog"
+      text: "Back to blog",
+      url: "../blog",
     },
   ],
 }

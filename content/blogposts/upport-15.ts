@@ -55,13 +55,13 @@ export const Upport15: WorkItem = {
     },
     {
       type: "Link",
-      text: "Click here for a case study of our process."
-      url: "../blog/designing-an-ideal-portable-desk"
+      text: "Click here for a case study of our process.",
+      url: "../blog/designing-an-ideal-portable-desk",
     },
     {
       type: "Link",
-      text: "Back to portfolio"
-      url: "../portfolio"
+      text: "Back to portfolio",
+      url: "../portfolio",
     },
   ],
 }

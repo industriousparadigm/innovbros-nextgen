@@ -77,8 +77,13 @@ export const dooringLife: WorkItem = {
     },
     {
       type: "Link",
-      text: "Back to blog"
-      url: "../blog"
+      text: "Check out the Dutch Reach Car Door Handle",
+      url: "../portfolio/dutch-reach",
+    },
+    {
+      type: "Link",
+      text: "Back to blog",
+      url: "../blog",
     },
   ],
 }

@@ -52,8 +52,8 @@ export const Lidless18: WorkItem = {
     },
     {
       type: "Link",
-      text: "Back to portfolio"
-      url: "../portfolio"
+      text: "Back to portfolio",
+      url: "../portfolio",
     },
   ],
 }
