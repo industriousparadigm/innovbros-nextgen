@@ -48,6 +48,27 @@ export default function HomePage() {
               </h5>
             </a>
           </Link>
+
+            {/* Third section */}
+            <Link href="../blog">
+            <a className={styles.gridItem}>
+              <h3>Toolkit</h3>
+              <div style={{ position: "relative", height: "200px" }}>
+                <Image
+                  src="/innov-toolkit-01.png"
+                  alt="Toolkit"
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <p>A collection of our methods, tools and frameworks for innovation.</p>
+              <br />
+              <h5>
+                Read more <span>-&gt;</span>
+              </h5>
+            </a>
+          </Link>
+            
           </div>
         </div>
       </div>
