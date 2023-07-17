@@ -50,7 +50,7 @@ export default function HomePage() {
           </Link>
 
             {/* Third section */}
-            <Link href="../blog">
+            <Link href="../toolkit">
             <a className={styles.gridItem}>
               <h3>Toolkit</h3>
               <div style={{ position: "relative", height: "200px" }}>
