@@ -1,6 +1,6 @@
 import styles from "@/styles/Home.module.scss"
 import Layout from "@/components/layout"
-import React from "react"
+import React, { useState } from "react"
 import "./toolspeedcalc.js"
 
 export default function ToolSpeedCalc() {
@@ -100,11 +100,13 @@ export default function ToolSpeedCalc() {
             <button id="toggle-form" onClick={toggleForm}>
                 Show/Hide Calculator
       	    </button>
-	    <form id="form" onSubmit={calculate} style={{ display: 'block' }}>
-		{/* Rest of the form */}
-	    </form>
-	    <div id="error-message"></div>
-	    <div id="result"></div>
+	        <div>
+	    	    <form id="form" onSubmit={calculate} style={{ display: 'block' }}>
+			{/* Rest of the form */}
+		    </form>
+		    <div id="error-message"></div>
+	        </div>
+            <div id="result"></div>
         </div>
       </div>
     </Layout>
