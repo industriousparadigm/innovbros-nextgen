@@ -52,5 +52,10 @@ export const Booken: WorkItem = {
       type: "Paragraph",
       text: "Most e-readers have an embedded store app to buy e-books. Steam sells video games' access codes as tokens. Specific sensitive databases and digital information are protected with cryptographic authentication.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio",
+      url: "../portfolio",
+    },
   ],
 }

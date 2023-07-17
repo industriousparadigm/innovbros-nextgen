@@ -51,5 +51,10 @@ export const SwollenPaper: WorkItem = {
       type: "Paragraph",
       text: "Besides the tradicional plastic (polystyrene foam), mycelium based packaging alternatives exist.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio",
+      url: "../portfolio",
+    },
   ],
 }
