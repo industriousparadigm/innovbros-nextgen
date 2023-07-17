@@ -8,9 +8,9 @@ export default function ToolSpeedCalc() {
   const [counter, setCounter] = useState(1);
 
   const toggleForm = () => {
-    const form = document.getElementById('form');
+    const form = document.getElementById("form");
     if (form) {
-      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+      form.style.display = form.style.display === "none" ? "block" : "none";
     }
   };
 
@@ -18,28 +18,28 @@ export default function ToolSpeedCalc() {
     event.preventDefault();
 
     // Get the input values from the form
-    const name = document.getElementById('name')?.value;
-    const fz = document.getElementById('fz')?.value;
-    const fn = document.getElementById('fn')?.value;
-    const dc = document.getElementById('dc')?.value;
-    const z = document.getElementById('z')?.value;
-    const Vc = document.getElementById('Vc')?.value;
+    const name = document.getElementById("name")?.value;
+    const fz = document.getElementById("fz")?.value;
+    const fn = document.getElementById("fn")?.value;
+    const dc = document.getElementById("dc")?.value;
+    const z = document.getElementById("z")?.value;
+    const Vc = document.getElementById("Vc")?.value;
 
     // Clear the previous error message
-    const errorMessage = document.getElementById('error-message');
+    const errorMessage = document.getElementById("error-message");
     if (errorMessage) {
-      errorMessage.innerHTML = '';
+      errorMessage.innerHTML = "";
     }
 
     // Validate the input values
     if (!dc || !z || !Vc || (!fz && !fn)) {
       if (errorMessage) {
-        errorMessage.innerHTML = 'Please enter missing values.';
+        errorMessage.innerHTML = "Please enter missing values.";
       }
       return false;
     }
     if (fz && fn) {
-      document.getElementById('fn')!.value = '';
+      document.getElementById("fn")!.value = "";
     }
 
     // Calculate n
@@ -58,25 +58,25 @@ export default function ToolSpeedCalc() {
     const roundedVf = Vf.toFixed(2);
 
     // Create the table HTML
-    const tableHTML = `<table class="minimalistBlack">
+    const tableHTML = <table class="minimalistBlack">
       <thead><tr><th colspan="4">Tool #${counter}: ${name}</th></tr></thead>
       <tbody>
         ${
           fz == 0 && fn != 0
-            ? `<tr><td>Diameter (Dc) [mm]:</td><td>Cutting Speed (Vc) [mm/min]:</td><td>Number of Edges (z):</td><td>Feed-rate per Revolution (fn) [mm/rot]:</td></tr>
-          <tr><td style="font-weight: bold">${dc}</td><td style="font-weight: bold">${Vc}</td><td style="font-weight: bold">${z}</td><td style="font-weight: bold">${fn}</td></tr>`
+            ? <tr><td>Diameter (Dc) [mm]:</td><td>Cutting Speed (Vc) [mm/min]:</td><td>Number of Edges (z):</td><td>Feed-rate per Revolution (fn) [mm/rot]:</td></tr>
+          <tr><td style="font-weight: bold">${dc}</td><td style="font-weight: bold">${Vc}</td><td style="font-weight: bold">${z}</td><td style="font-weight: bold">${fn}</td></tr>
             : fz != 0 && fn == 0
-            ? `<tr><td>Diameter (Dc) [mm]:</td><td>Cutting Speed (Vc) [mm/min]:</td><td>Number of Edges (z):</td><td>Feed-rate per Edge (fz) [mm/z]:</td></tr>
-          <tr><td style="font-weight: bold">${dc}</td><td style="font-weight: bold">${Vc}</td><td style="font-weight: bold">${z}</td><td style="font-weight: bold">${fz}</td></tr>`
-            : ''
+            ? <tr><td>Diameter (Dc) [mm]:</td><td>Cutting Speed (Vc) [mm/min]:</td><td>Number of Edges (z):</td><td>Feed-rate per Edge (fz) [mm/z]:</td></tr>
+          <tr><td style="font-weight: bold">${dc}</td><td style="font-weight: bold">${Vc}</td><td style="font-weight: bold">${z}</td><td style="font-weight: bold">${fz}</td></tr>
+            : ""
         }
         <tr><td colspan="2">RPM n [r/min]:</td><td colspan="2">Feed rate Vf [mm/min]:</td></tr>
         <tr><td colspan="2" style="font-weight: bold">= ${roundedN}</td><td colspan="2" style="font-weight: bold">= ${roundedVf}</td></tr>
       </tbody>
-    </table>`;
+    </table>;
 
     // Insert the table HTML into the div
-    const resultDiv = document.getElementById('result');
+    const resultDiv = document.getElementById("result");
     if (resultDiv) {
       resultDiv.innerHTML += tableHTML;
     }
