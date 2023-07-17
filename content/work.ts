@@ -4,7 +4,6 @@ import { PerDon16 } from "./blogposts/per-don-16"
 import { OnFlick16 } from "./blogposts/on-flick-16"
 import { Lidless18 } from "./blogposts/lidless-18"
 import { DutchReach17 } from "./blogposts/dutch-reach-17"
-import { Tuniest18 } from "./blogposts/tuniest-18"
 
 export const workItems: WorkItem[] = [
   Upport15,
@@ -12,7 +11,6 @@ export const workItems: WorkItem[] = [
   DutchReach17,
   OnFlick16,
   PerDon16,
-  Tuniest18,
   {
     title: "Warm-up Energisers ebook",
     author: "The Innovation Brothers",
