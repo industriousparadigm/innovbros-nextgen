@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className={styles.itemsGrid}>
             
             {/* First section */}
-            <Link href="./warmup">
+            <Link href="./toolkit/warmup">
             <a className={styles.gridItem}>
               <h3>Warm-up Energisers</h3>
               <div style={{ position: "relative", height: "200px" }}>
