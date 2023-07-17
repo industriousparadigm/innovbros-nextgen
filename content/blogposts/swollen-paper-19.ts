@@ -1,6 +1,6 @@
 import { WorkItem } from "../types"
 
-export const SwollenPaper: WorkItem = {
+export const SwollenPaper19: WorkItem = {
   title: "Swollen Paper",
   author: "The Innovation Brothers",
   coverImage: "swollen-paper-19-cover.jpg",
