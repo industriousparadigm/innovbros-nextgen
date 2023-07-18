@@ -1,19 +1,16 @@
 import { WorkItem } from "../types"
-import { Upport15 } from "../blogposts/upport-15"
-import { PerDon16 } from "../blogposts/per-don-16"
-import { OnFlick16 } from "../blogposts/on-flick-16"
-import { Lidless18 } from "../blogposts/lidless-18"
-import { DutchReach17 } from "../blogposts/dutch-reach-17"
-import { Booken15 } from "../blogposts/booken-15"
-import { SwollenPaper19 } from "../blogposts/swollen-paper-19"
+import { warmupIntro } from "./warmup/warmup-intro"
+import { artistID } from "./warmup/01-artist-id"
+import { ballToss } from "./warmup/02-ball-toss"
+import { birthline } from "./warmup/03-birthline"
+import { dreamVacation } from "./warmup/04-dream-vacation"
+import { favItem } from "./warmup/05-fav-item"
 
 export const workItems: WorkItem[] = [
-  Upport15,
-  Lidless18,
-  DutchReach17,
-  OnFlick16,
-  PerDon16,
-  Booken15,
-  SwollenPaper19,
-
+  warmupIntro,
+  artistID,
+  ballToss,
+  birthline,
+  dreamVacation,
+  favItem,
 ]
