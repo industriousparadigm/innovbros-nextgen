@@ -1,16 +1,16 @@
 import { WorkItem } from "../types"
 
-export const artistID: WorkItem = {
-  title: "Artist ID",
+export const birthline: WorkItem = {
+  title: "Birthday's Line",
   author: "The Innovation Brothers",
-  coverImage: "01-artist-id-cover.png",
+  coverImage: "03-birthline-cover.png",
   description:
     "'Introduce Each Other' to promote people to get to know each other.",
   content: [
     {
       type: "Image",
-      image: "01-artist-id.png",
-      alt: "artist ID",
+      image: "03-birthline.png",
+      alt: "Birthday's Line",
     },
     {
       type: "Link",
