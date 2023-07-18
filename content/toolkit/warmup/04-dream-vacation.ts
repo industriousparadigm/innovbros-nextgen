@@ -1,4 +1,4 @@
-import { WorkItem } from "../types"
+import { WorkItem } from "../content/types"
 
 export const dreamVacation: WorkItem = {
   title: "Dream Vacation",
