@@ -16,7 +16,7 @@ export default function HomePage() {
               <h3>Warm-up Energisers</h3>
               <div style={{ position: "relative", height: "200px" }}>
                 <Image
-                  src="/warmup-energisers-cover.jpg"
+                  src="/warmup-energisers-cover.png"
                   alt="Warm-up Energisers"
                   fill
                   style={{ objectFit: "cover" }}
