@@ -3,7 +3,7 @@ import { WorkItem } from "../../types"
 export const intensityball: WorkItem = {
   title: "Intensity Ball",
   author: "The Innovation Brothers",
-  coverImage: "447-intensity-ball-cover.png",
+  coverImage: "47-intensity-ball-cover.png",
   description:
     "'Boost Communication' to reinforce  listening and empathy.",
   content: [
