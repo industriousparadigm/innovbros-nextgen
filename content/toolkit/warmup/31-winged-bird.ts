@@ -1,16 +1,16 @@
 import { WorkItem } from "../../types"
 
-export const ballToss: WorkItem = {
-  title: "Ball Toss",
+export const wingedbird: WorkItem = {
+  title: "Winged bird",
   author: "The Innovation Brothers",
-  coverImage: "02-ball-toss-cover.png",
+  coverImage: "31-winged-bird-cover.png",
   description:
-    "'Introduce Each Other' to promote people to get to know each other.",
+    "'Encourage Creativity' to boost creative thinking.",
   content: [
     {
       type: "Image",
-      image: "02-ball-toss.png",
-      alt: "Ball Toss",
+      image: "31-winged-bird.png",
+      alt: "wingedbird",
     },
     {
       type: "Link",

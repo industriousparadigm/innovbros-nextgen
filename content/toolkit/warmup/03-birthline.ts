@@ -15,7 +15,7 @@ export const birthline: WorkItem = {
     {
       type: "Link",
       text: "Back to Warm-up Energisers",
-      url: "../toolkit/warmup",
+      url: "../warmup",
     },
   ],
 }

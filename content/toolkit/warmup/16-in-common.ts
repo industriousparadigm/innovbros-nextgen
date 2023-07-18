@@ -1,16 +1,16 @@
 import { WorkItem } from "../../types"
 
-export const dreamVacation: WorkItem = {
-  title: "Dream Vacation",
+export const incommon: WorkItem = {
+  title: "Three in Common",
   author: "The Innovation Brothers",
-  coverImage: "04-dream-vacation-cover.png",
+  coverImage: "16-in-common-cover.png",
   description:
     "'Introduce Each Other' to promote people to get to know each other.",
   content: [
     {
       type: "Image",
-      image: "04-dream-vacation.png",
-      alt: "Dream Vacation",
+      image: "16-in-common.png",
+      alt: "Three in common",
     },
     {
       type: "Link",

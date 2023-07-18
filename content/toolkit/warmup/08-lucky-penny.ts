@@ -1,16 +1,16 @@
 import { WorkItem } from "../../types"
 
-export const dreamVacation: WorkItem = {
-  title: "Dream Vacation",
+export const luckypenny: WorkItem = {
+  title: "Lucky Penny",
   author: "The Innovation Brothers",
-  coverImage: "04-dream-vacation-cover.png",
+  coverImage: "08-lucky-penny-cover.png",
   description:
     "'Introduce Each Other' to promote people to get to know each other.",
   content: [
     {
       type: "Image",
-      image: "04-dream-vacation.png",
-      alt: "Dream Vacation",
+      image: "08-lucky-penny.png",
+      alt: "Lucky Penny",
     },
     {
       type: "Link",

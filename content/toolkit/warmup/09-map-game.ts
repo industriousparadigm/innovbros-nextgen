@@ -1,16 +1,16 @@
 import { WorkItem } from "../../types"
 
-export const dreamVacation: WorkItem = {
-  title: "Dream Vacation",
+export const mapgame: WorkItem = {
+  title: "Map Game",
   author: "The Innovation Brothers",
-  coverImage: "04-dream-vacation-cover.png",
+  coverImage: "09-map-game-cover.png",
   description:
     "'Introduce Each Other' to promote people to get to know each other.",
   content: [
     {
       type: "Image",
-      image: "04-dream-vacation.png",
-      alt: "Dream Vacation",
+      image: "09-map-game.png",
+      alt: "Four Facts",
     },
     {
       type: "Link",
