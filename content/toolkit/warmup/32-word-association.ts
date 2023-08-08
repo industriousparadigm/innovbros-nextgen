@@ -13,6 +13,11 @@ export const wordassociation: WorkItem = {
       alt: "wordassociation",
     },
     {
+      type: "Image",
+      image: "template-words.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

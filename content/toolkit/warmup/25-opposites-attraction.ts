@@ -10,7 +10,12 @@ export const oppositesattraction: WorkItem = {
     {
       type: "Image",
       image: "25-opposites-attraction.png",
-      alt: "oppositesattraction",
+      alt: "Opposites Attraction",
+    },
+    {
+      type: "Image",
+      image: "template-words.jpg",
+      alt: "Template",
     },
     {
       type: "Link",

@@ -13,6 +13,11 @@ export const peoplebingo: WorkItem = {
       alt: "People bingo",
     },
     {
+      type: "Image",
+      image: "template-bingo.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

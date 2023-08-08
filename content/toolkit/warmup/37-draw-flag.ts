@@ -13,6 +13,11 @@ export const drawflag: WorkItem = {
       alt: "drawflag",
     },
     {
+      type: "Image",
+      image: "template-flag.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

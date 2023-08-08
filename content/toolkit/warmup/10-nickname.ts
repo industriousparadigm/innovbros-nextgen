@@ -13,6 +13,11 @@ export const nickname: WorkItem = {
       alt: "Nick Name",
     },
     {
+      type: "Image",
+      image: "template-nametags.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

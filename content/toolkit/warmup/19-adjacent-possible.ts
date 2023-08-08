@@ -13,6 +13,11 @@ export const adjacentpossible: WorkItem = {
       alt: "Adjacent possible",
     },
     {
+      type: "Image",
+      image: "template-words.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

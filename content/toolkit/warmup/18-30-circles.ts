@@ -13,6 +13,11 @@ export const XXXcircles: WorkItem = {
       alt: "30 Circles",
     },
     {
+      type: "Image",
+      image: "template-30circles.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

@@ -13,6 +13,11 @@ export const rolladice: WorkItem = {
       alt: "rolladice",
     },
     {
+      type: "Image",
+      image: "template-dice.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",

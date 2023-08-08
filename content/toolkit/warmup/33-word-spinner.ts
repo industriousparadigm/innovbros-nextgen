@@ -13,6 +13,11 @@ export const wordspinner: WorkItem = {
       alt: "wordspinner",
     },
     {
+      type: "Image",
+      image: "template-words.jpg",
+      alt: "Template",
+    },
+    {
       type: "Link",
       text: "Back to Warm-up Energisers",
       url: "../warmup",
