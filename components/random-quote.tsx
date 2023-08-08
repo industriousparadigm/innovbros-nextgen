@@ -20,7 +20,6 @@ const RandomQuote = () => {
         <em className={styles.centered}>- {quote.author}</em>
       </p>
       <br />
-      /*
       <div className={styles.quoteRefreshButton} onClick={getNewQuote}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -33,9 +32,6 @@ const RandomQuote = () => {
             clipRule="evenodd"
           />
         </svg>
-        */
-     <div className={styles.quoteRefreshButton} onClick={getNewQuote}>
-        <Image src="/random-icon.svg" alt="Click Here" width={100} height={100} />
       </div>
     </div>
   )
