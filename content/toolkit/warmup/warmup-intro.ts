@@ -51,7 +51,7 @@ export const warmupIntro: WorkItem = {
     {
       type: "Link",
       text: "Back to Warm-up Energisers",
-      url: "../toolkit/warmup",
+      url: "../../toolkit/warmup",
     },
   ],
 }
