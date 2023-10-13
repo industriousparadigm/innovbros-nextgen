@@ -28,9 +28,17 @@ export const Voicefever23: WorkItem = {
       text: "We conducted a UX assessment of the Voicefever mobile webapp and recommended a new screen flow design to enhance the user experience.",
     },
     {
+      type: "Paragraph",
+      text: "1. analysis of the current screen flow:",
+    },
+    {
       type: "Image",
       image: "voice-fever-UX-redesign-1.png",
       alt: "page 1",
+    },
+    {
+      type: "Paragraph",
+      text: "2. analytical assessment of webapp's elements:",
     },
     {
       type: "Image",
@@ -38,9 +46,17 @@ export const Voicefever23: WorkItem = {
       alt: "page 2",
     },
     {
+      type: "Paragraph",
+      text: "3. understanding of the user journey:",
+    },
+    {
       type: "Image",
       image: "voice-fever-UX-redesign-3.png",
       alt: "page 3",
+    },
+    {
+      type: "Paragraph",
+      text: "4. suggestion for new webapp design:",
     },
     {
       type: "Image",
