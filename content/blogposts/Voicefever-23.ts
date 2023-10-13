@@ -1,6 +1,6 @@
 import { WorkItem } from "../types"
 
-export const Voicefever: WorkItem = {
+export const Voicefever23: WorkItem = {
   title: "Voicefever UX Assessment",
   author: "The Innovation Brothers",
   coverImage: "voice-fever-23.png",
