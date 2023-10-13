@@ -32,7 +32,7 @@ const RandomQuote = () => {
             clipRule="evenodd"
           />
         </svg>
-        <p className={styles.centered}>next quote</p>
+        <p className={styles.centered}>next</p>
       </div>
     </div>
   )
