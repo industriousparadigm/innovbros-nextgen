@@ -6,9 +6,11 @@ import { Lidless18 } from "./blogposts/lidless-18"
 import { DutchReach17 } from "./blogposts/dutch-reach-17"
 import { Booken15 } from "./blogposts/booken-15"
 import { SwollenPaper19 } from "./blogposts/swollen-paper-19"
+import { Voicefever23 } from "./blogposts/Voicefever-23"
 
 export const workItems: WorkItem[] = [
   Upport15,
+  Voicefever23,
   Lidless18,
   DutchReach17,
   OnFlick16,
