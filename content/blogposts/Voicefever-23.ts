@@ -59,5 +59,10 @@ export const Voicefever23: WorkItem = {
       type: "Paragraph",
       text: "Currently, a person can also send voice messages to another through a phone call, an instant messaging app such as WhatsApp or a VOIP service like Skype.",
     },
+    {
+      type: "Link",
+      text: "Back to portfolio",
+      url: "../portfolio",
+    },
   ],
 }
