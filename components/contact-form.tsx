@@ -15,7 +15,7 @@ export default function ContactForm() {
         <input type="text" id="input-subject" placeholder="Subject" />
       </div> */}
       <div className="half right cf">
-        <input type="text" id="input-name" placeholder="Email address" />
+        <input type="email" id="input-email" name="email" placeholder="Email address" required />
         <textarea
           name="message"
           id="input-message"
